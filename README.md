@@ -30,7 +30,7 @@ CV scores are estimates from the training data. Final test scores may differ.
 .
 ├── train_predict.py          # trains both models, prints CV scores, writes predictions
 ├── README.md
-├── data/                     # place the CSV files here
+├── data/
 │   ├── BT2024136_train_var1.csv
 │   ├── BT2024136_test_var1.csv
 │   ├── BT2024136_train_var2.csv
@@ -49,11 +49,11 @@ pip install numpy pandas scikit-learn
 
 ## Usage
 
-1. Put the four dataset CSV files in the `data/` folder.
+1. Put the four dataset CSV files in the `dataset/` folder.
 2. Run from the repository root:
 
 ```bash
-python train_predict.py
+python3 train_predict.py
 ```
 
 The script prints cross-validation MSE and R² for each problem (two different CV splits), then fits on the full training set and writes:
