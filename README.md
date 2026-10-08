@@ -38,7 +38,7 @@ All per-degree numbers are in `results/degree_search_var*.csv`.
 ├── train_predict.py            # full pipeline: search, checks, final fit, predictions
 ├── report.tex / report.pdf     # report
 ├── README.md
-├── data/                       # place the four CSV files here
+├── dataset/                       # place the four CSV files here
 ├── results/                    # degree_search_var*.csv, alpha_sensitivity_var1.csv, summary.json
 ├── figures/                    # degree_curves_var*.pdf, diagnostics_var*.pdf
 ├── BT2024136_pred_var1.csv     # predictions
